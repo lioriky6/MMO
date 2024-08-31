@@ -1,0 +1,19 @@
+{
+  "name": "mmo",
+  "version": "1.0.0",
+  "description": "my first mmo game",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js --env=production",
+    "schema-codgen": "npx schema-codegen Resources\\Schema\\* --csharp --output GeneratedSchema"
+  },
+  "author": "Lior Yehuda",
+  "license": "ISC",
+  "dependencies": {
+    "colyseus": "^0.15.17",
+    "extend": "^3.0.2",
+    "minimist": "^1.2.8",
+    "typescript": "^5.5.4"
+  }
+}
